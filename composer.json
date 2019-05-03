@@ -1,0 +1,15 @@
+{
+    "name": "renanonline8/slim-utils",
+    "description": "Tools for Slim Framework",
+    "type": "library",
+    "require": {
+        "slim/slim": "^3.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Renan Santos Gomes",
+            "email": "renanonline8@gmail.com"
+        }
+    ]
+}
