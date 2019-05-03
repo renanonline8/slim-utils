@@ -11,5 +11,8 @@
             "name": "Renan Santos Gomes",
             "email": "renanonline8@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {"SlimUtils\\": "src/SlimUtils"}
+    }
 }

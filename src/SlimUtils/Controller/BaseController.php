@@ -1,9 +1,9 @@
 <?php
-namespace Utils\Controller;
+namespace SlimUtils\Controller;
 
 use \Slim\Container as Container;
 
-abstract class Controller
+abstract class BaseController
 {
     protected $container;
 
