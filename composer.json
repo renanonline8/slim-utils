@@ -2,6 +2,7 @@
     "name": "renanonline8/slim-utils",
     "description": "Tools for Slim Framework",
     "type": "library",
+    "version": "0.1",
     "require": {
         "slim/slim": "^3.0"
     },
