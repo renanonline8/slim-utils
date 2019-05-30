@@ -7,7 +7,9 @@ Tools for Slim Framework 3.
 composer require renanonline8/slim-utils
 ```
 
-## BaseController
+## Usage
+
+### BaseController
 This class has the purpose of creating a controller class
 
 1. Create the class
@@ -30,3 +32,18 @@ final class Controller extends BaseController
     }
 }
 ```
+
+2. Create a container with Controller
+```php
+$container['ControllerIndex'] = function($c) {
+    return new \App\Controller\ControllerIndex($c);
+};
+```
+
+3. Implement the route
+```php
+$app->get('/[{name}]', 'Controller:control');
+```
+
+### Middleware
+This class has the purpose be a Middleware abstract with easy access of container
